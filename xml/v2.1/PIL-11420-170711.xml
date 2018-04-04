@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:PutReisInformatieBoodschapIn
+        xmlns:ns1="urn:ndov:cdm:treinserviceinformatie:reisinformatie:messages:landelijkbericht:1"
+        xmlns:ns2="urn:ndov:cdm:treinserviceinformatie:reisinformatie:data:1">
+    <ns2:ServiceInformatieProductVrijeTekstBerichtLandelijk TimeStamp="2017-07-11T14:11:47.112Z" Versie="2.1">
+        <ns2:SIPAdministratie>
+            <ns2:ServiceInformatieProductId>1707111411493200004</ns2:ServiceInformatieProductId>
+            <ns2:AbonnementId>0</ns2:AbonnementId>
+            <ns2:ServiceInformatieTijdstip>2017-07-11T14:11:47.000Z</ns2:ServiceInformatieTijdstip>
+        </ns2:SIPAdministratie>
+        <ns2:VrijeTekstBerichtLandelijk>
+            <ns2:MeldingNummer>11420</ns2:MeldingNummer>
+            <ns2:MeldingVolgNummer>1</ns2:MeldingVolgNummer>
+            <ns2:MeldingNaam>SB Externe leverancier Zaltbommelse Kiosk</ns2:MeldingNaam>
+            <ns2:WijzigingTypeBericht>
+                <ns2:Nieuw>
+                    <ns2:Tijdvak>
+                        <ns2:Id>0</ns2:Id>
+                        <ns2:BeginTijd>2017-07-11T14:10:00.000Z</ns2:BeginTijd>
+                        <ns2:EindTijd>2017-07-11T21:59:00.000Z</ns2:EindTijd>
+                    </ns2:Tijdvak>
+                    <ns2:Impact>4</ns2:Impact>
+                    <ns2:BestemdVoor>
+                        <ns2:Derden>J</ns2:Derden>
+                        <ns2:Teletekst>
+                            <ns2:CalamiteitenNL>N</ns2:CalamiteitenNL>
+                            <ns2:Internationaal>N</ns2:Internationaal>
+                            <ns2:ExtraTreinen>N</ns2:ExtraTreinen>
+                            <ns2:Werkzaamheden>N</ns2:Werkzaamheden>
+                        </ns2:Teletekst>
+                    </ns2:BestemdVoor>
+                    <ns2:Categorie>
+                        <ns2:Code>113</ns2:Code>
+                        <ns2:Omschrijving>gratis koffie/thee (evt. WC)</ns2:Omschrijving>
+                    </ns2:Categorie>
+                    <ns2:TaalCode>NL</ns2:TaalCode>
+                    <ns2:KortBericht>
+                        <ns2:KopRegel>.</ns2:KopRegel>
+                        <ns2:SubKopRegel>.</ns2:SubKopRegel>
+                        <ns2:BerichtInhoud>.</ns2:BerichtInhoud>
+                    </ns2:KortBericht>
+                    <ns2:MiddelBericht>
+                        <ns2:KopRegel>.</ns2:KopRegel>
+                        <ns2:SubKopRegel>.</ns2:SubKopRegel>
+                        <ns2:BerichtInhoud>.</ns2:BerichtInhoud>
+                    </ns2:MiddelBericht>
+                    <ns2:LangBericht>
+                        <ns2:KopRegel>SB Externe leverancier Zaltbommelse Kiosk</ns2:KopRegel>
+                        <ns2:BerichtInhoud>Gegeven de huidige situatie bieden we u tijdens het wachten graag iets te
+                            drinken aan bij de Zaltbommelse Kiosk. De zaltbommelse Kiosk bevindt zich in de hal
+                        </ns2:BerichtInhoud>
+                    </ns2:LangBericht>
+                </ns2:Nieuw>
+            </ns2:WijzigingTypeBericht>
+        </ns2:VrijeTekstBerichtLandelijk>
+    </ns2:ServiceInformatieProductVrijeTekstBerichtLandelijk>
+</ns1:PutReisInformatieBoodschapIn>

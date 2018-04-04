@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:PutReisInformatieBoodschapIn
+        xmlns:ns1="urn:ndov:cdm:treinserviceinformatie:reisinformatie:messages:landelijkbericht:1"
+        xmlns:ns2="urn:ndov:cdm:treinserviceinformatie:reisinformatie:data:1">
+    <ns2:ServiceInformatieProductVrijeTekstBerichtLandelijk TimeStamp="2017-05-28T17:24:12.132Z" Versie="2.1">
+        <ns2:SIPAdministratie>
+            <ns2:ServiceInformatieProductId>1705281724143300005</ns2:ServiceInformatieProductId>
+            <ns2:AbonnementId>0</ns2:AbonnementId>
+            <ns2:ServiceInformatieTijdstip>2017-05-28T17:24:12.000Z</ns2:ServiceInformatieTijdstip>
+        </ns2:SIPAdministratie>
+        <ns2:VrijeTekstBerichtLandelijk>
+            <ns2:MeldingNummer>11172</ns2:MeldingNummer>
+            <ns2:MeldingVolgNummer>2</ns2:MeldingVolgNummer>
+            <ns2:MeldingNaam>Wzh Van en naar 's-Hertogenbosch</ns2:MeldingNaam>
+            <ns2:WijzigingTypeBericht>
+                <ns2:Nieuw>
+                    <ns2:Tijdvak>
+                        <ns2:Id>0</ns2:Id>
+                        <ns2:BeginTijd>2017-05-28T19:30:00.000Z</ns2:BeginTijd>
+                        <ns2:EindTijd>2017-05-29T03:30:00.000Z</ns2:EindTijd>
+                    </ns2:Tijdvak>
+                    <ns2:Impact>4</ns2:Impact>
+                    <ns2:BestemdVoor>
+                        <ns2:Derden>J</ns2:Derden>
+                        <ns2:Teletekst>
+                            <ns2:CalamiteitenNL>J</ns2:CalamiteitenNL>
+                            <ns2:Internationaal>N</ns2:Internationaal>
+                            <ns2:ExtraTreinen>N</ns2:ExtraTreinen>
+                            <ns2:Werkzaamheden>N</ns2:Werkzaamheden>
+                        </ns2:Teletekst>
+                    </ns2:BestemdVoor>
+                    <ns2:Categorie>
+                        <ns2:Code>010</ns2:Code>
+                        <ns2:Omschrijving>werkzaamheden</ns2:Omschrijving>
+                    </ns2:Categorie>
+                    <ns2:TaalCode>NL</ns2:TaalCode>
+                    <ns2:KortBericht>
+                        <ns2:KopRegel>Wzh Van en naar 's-Hertogenbosch</ns2:KopRegel>
+                        <ns2:SubKopRegel>nacht van zo 28 op ma 29 mei</ns2:SubKopRegel>
+                        <ns2:BerichtInhoud>Van en naar 's-Hertogenbosch
+                            Werkzaamheden: van 23.30 tot 05.30 minder treinen en bussen.
+                        </ns2:BerichtInhoud>
+                    </ns2:KortBericht>
+                    <ns2:MiddelBericht>
+                        <ns2:KopRegel>Van en naar 's-Hertogenbosch</ns2:KopRegel>
+                        <ns2:SubKopRegel>Zondag 28 mei vanaf 23.30 uur</ns2:SubKopRegel>
+                        <ns2:BerichtInhoud>Door werkzaamheden rijden er van 23.30 tot 05.30 uur minder treinen en
+                            bussen.
+                            Plan uw reis met de reisplanner.
+                        </ns2:BerichtInhoud>
+                    </ns2:MiddelBericht>
+                    <ns2:LangBericht>
+                        <ns2:KopRegel>Van en naar 's-Hertogenbosch</ns2:KopRegel>
+                        <ns2:SubKopRegel>Zondag 28 mei vanaf 23.30 uur</ns2:SubKopRegel>
+                        <ns2:BerichtInhoud>Door werkzaamheden rijden er van 23.30 tot 05.30 uur minder treinen en
+                            bussen.
+                            Plan uw reis met de reisplanner.
+                        </ns2:BerichtInhoud>
+                    </ns2:LangBericht>
+                </ns2:Nieuw>
+            </ns2:WijzigingTypeBericht>
+        </ns2:VrijeTekstBerichtLandelijk>
+    </ns2:ServiceInformatieProductVrijeTekstBerichtLandelijk>
+</ns1:PutReisInformatieBoodschapIn>
