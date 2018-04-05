@@ -26,6 +26,16 @@ zoals actuele vertrekstaten op stations en realtime positie info van treinen.
 
 Berichten zijn ontvangen via [ZeroMQ queue van NDOV Loket](http://data.ndovloket.nl/REALTIME.TXT).
 
+## Bestandsnaam formaat
+
+```
+{type}-{meldingNummer}-{date}.xml
+```
+
+- `type`: "PIL" (Patroon Informatie Landerlijk: gestructureerde berichten over verstoringen) of "VTBL" (Vrije Tekst Bericht Landelijk: vrije tekst berichten).
+- `meldingsnummer`: Uniek nummer van de melding
+- `date`: Datum verstuurd `yymmdd`.
+
 ## Licentie
 
 Gegevens worden door NDOV Loket aangeboden onder [CC0](https://creativecommons.org/publicdomain/zero/1.0/).

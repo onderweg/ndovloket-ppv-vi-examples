@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:PutReisInformatieBoodschapIn 
+    xmlns:ns1="urn:ndov:cdm:treinserviceinformatie:reisinformatie:messages:landelijkbericht:1" 
+    xmlns:ns2="urn:ndov:cdm:treinserviceinformatie:reisinformatie:data:1">
+    <ns2:ServiceInformatieProductVrijeTekstBerichtLandelijk TimeStamp="2018-04-04T14:58:14.050Z" Versie="2.1">
+        <ns2:SIPAdministratie>
+            <ns2:ServiceInformatieProductId>1804041458163100002</ns2:ServiceInformatieProductId>
+            <ns2:AbonnementId>0</ns2:AbonnementId>
+            <ns2:ServiceInformatieTijdstip>2018-04-04T14:58:14.000Z</ns2:ServiceInformatieTijdstip>
+        </ns2:SIPAdministratie>
+        <ns2:VrijeTekstBerichtLandelijk>
+            <ns2:MeldingNummer>17456</ns2:MeldingNummer>
+            <ns2:MeldingVolgNummer>1</ns2:MeldingVolgNummer>
+            <ns2:MeldingNaam>Thalys 9382 omgekeerde rijtuigvolgorde</ns2:MeldingNaam>
+            <ns2:WijzigingTypeBericht>
+                <ns2:Nieuw>
+                    <ns2:Tijdvak>
+                        <ns2:Id>0</ns2:Id>
+                        <ns2:BeginTijd>2018-04-04T14:57:00.000Z</ns2:BeginTijd>
+                        <ns2:EindTijd>2018-04-04T17:54:00.000Z</ns2:EindTijd>
+                    </ns2:Tijdvak>
+                    <ns2:Impact>1</ns2:Impact>
+                    <ns2:BestemdVoor>
+                        <ns2:Derden>J</ns2:Derden>
+                        <ns2:Teletekst>
+                            <ns2:CalamiteitenNL>N</ns2:CalamiteitenNL>
+                            <ns2:Internationaal>N</ns2:Internationaal>
+                            <ns2:ExtraTreinen>N</ns2:ExtraTreinen>
+                            <ns2:Werkzaamheden>N</ns2:Werkzaamheden>
+                        </ns2:Teletekst>
+                    </ns2:BestemdVoor>
+                    <ns2:Categorie>
+                        <ns2:Code>222</ns2:Code>
+                        <ns2:Omschrijving>Thalys omgekeerde volgorde</ns2:Omschrijving>
+                    </ns2:Categorie>
+                    <ns2:TaalCode>NL</ns2:TaalCode>
+                    <ns2:KortBericht>
+                        <ns2:KopRegel>Thalys 9382</ns2:KopRegel>
+                        <ns2:BerichtInhoud>​Thalys 9382, Amsterdam C. vertrek 18:17 uur rijdt in omgekeerde rijtuigvolgorde. De eersteklas rijtuigen bevinden zich achteraan de trein. </ns2:BerichtInhoud>
+                    </ns2:KortBericht>
+                    <ns2:MiddelBericht>
+                        <ns2:KopRegel>Thalys 9382</ns2:KopRegel>
+                        <ns2:BerichtInhoud>​Thalys 9382, Amsterdam C. vertrek 18:17 uur rijdt in omgekeerde rijtuigvolgorde. De eersteklas rijtuigen bevinden zich achteraan de trein. </ns2:BerichtInhoud>
+                    </ns2:MiddelBericht>
+                    <ns2:LangBericht>
+                        <ns2:KopRegel>Thalys 9382</ns2:KopRegel>
+                        <ns2:BerichtInhoud>.Thalys 9382, Amsterdam C. vertrek 18:17 uur rijdt in omgekeerde rijtuigvolgorde. De eersteklas rijtuigen bevinden zich achteraan de trein. </ns2:BerichtInhoud>
+                    </ns2:LangBericht>
+                </ns2:Nieuw>
+            </ns2:WijzigingTypeBericht>
+        </ns2:VrijeTekstBerichtLandelijk>
+    </ns2:ServiceInformatieProductVrijeTekstBerichtLandelijk>
+</ns1:PutReisInformatieBoodschapIn>
