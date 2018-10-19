@@ -1,6 +1,6 @@
 # NDOV Loket PPV/VI voorbeeld XML bestanden
 
-Voorbeeld XML van verstoringsinformatie, verstuurd via het Infoplus koppelvlak van NDOV Loket. 
+Voorbeeld XML bestanden van verstoringsinformatie, ontvangen via het Infoplus koppelvlak van NDOV Loket. 
 
 ## Wat is Infoplus?
 
@@ -20,11 +20,11 @@ is, zodat reizigers en personeel overal over dezelfde informatie beschikken.
 (bron: NDOV Loket documentatie)
 
 Naast verstoringsinformatie verstuurt dit systeem veel meer data, 
-zoals actuele vertrekstaten op stations en realtime positie info van treinen.
+zoals actuele vertrekstaten op stations en realtime positie van treinen.
 
 ## Waar komen voorbeelden vandaan
 
-Berichten zijn ontvangen via [ZeroMQ queue van NDOV Loket](http://data.ndovloket.nl/REALTIME.TXT).
+Voorbeelden zijn een sample van echte meldingen die zijn ontvangen via [ZeroMQ queue van NDOV Loket](http://data.ndovloket.nl/REALTIME.TXT).
 
 ## Bestandsnaam formaat
 
